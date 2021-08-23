@@ -10,7 +10,7 @@ const Header = () => {
     const response = await fetch('https://13t50k95j3.execute-api.us-east-1.amazonaws.com/Production/menu_links');
     let jsonData = await response.json();
 
-    //assign response data to our state variable
+    //assign response data to state variable
     setMenuLinksData(jsonData);
   }
 
